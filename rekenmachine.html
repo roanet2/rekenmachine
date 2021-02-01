@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>oefen</title>
+	<link rel="stylesheet" type="text/css" href="reken.css">
+ 
+<script type="text/javascript" src="reken.js"></script>
+</head>
+<header id="bovenkant">
+	<h1>Rekenmachine</h1>
+</header>
+<body>
+<table>
+	<tr>
+		<td>
+			Voer een getal in:
+		</td>
+		<td>
+			<input id="firstLetter" name="firstLetter" type="" required>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			
+		</td>
+		<td>
+			<input type="radio" id="plus" name="reken" value="+" checked>+
+			<input type="radio" id="min" name="reken" value="-">-
+			<input type="radio" id="delen" name="reken" value="/">/
+			<input type="radio" id="keer" name="reken" value="*">*
+
+		</td>
+	</tr>	
+	<tr>
+		<td>
+			Voer een getal in:
+		</td>
+		<td>
+			<input id="lastLetter" name="lastLetter" type="" required>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			
+		</td>
+		<td style="float:right;">
+			=
+		</td>
+	</tr>
+	<tr>
+		<td>
+			totaal:
+		</td>
+		<td>
+			<input id="totaal" name="totaal" disabled="disabled">
+		</td>
+		<tr>
+		<td>
+			
+		</td>
+		<td>
+			<input id="knop" type="button" value="klik hier" onclick="Rekensom()"> <input id="knop" type="button" value="clear" onclick="Clear()"> 
+		</td>
+
+	</tr>
+
+	</tr>
+</table>
+
+<footer id="onderkant"><h5>Gemaakt door roan ettema</h5></footer>
+</body>
+</html>
